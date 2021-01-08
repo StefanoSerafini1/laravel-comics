@@ -1,0 +1,31 @@
+.d-flex {
+  display: flex;
+}
+
+.align-centr {
+  align-items: center;
+}
+
+.list-none {
+  list-style: none;
+}
+
+.container {
+  max-width: 1170px;
+  margin: 0 auto;
+  padding: 0;
+}
+.container ul li {
+  margin: 0 10px;
+}
+
+.generalContainer .containerHeader {
+  height: 390px;
+  background-image: url("../images/bg-hero-home.jpg");
+  background-size: cover;
+}
+.generalContainer .comicList {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  grid-gap: 1em;
+}

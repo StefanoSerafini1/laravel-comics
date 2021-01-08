@@ -1,0 +1,15 @@
+.generalContainer{
+
+    
+    .containerHeader{
+        height: 390px;
+        background-image: url('../images/bg-hero-home.jpg');
+        background-size: cover;
+        
+    }
+    .comicList{
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+        grid-gap: 1em;
+    }
+}
