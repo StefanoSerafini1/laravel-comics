@@ -15,17 +15,82 @@
   margin: 0 auto;
   padding: 0;
 }
-.container ul li {
-  margin: 0 10px;
-}
 
+.generalContainer {
+  list-style: none;
+  text-decoration: none;
+}
 .generalContainer .containerHeader {
   height: 390px;
   background-image: url("../images/bg-hero-home.jpg");
   background-size: cover;
+  text-decoration: none;
 }
-.generalContainer .comicList {
+.generalContainer .comics {
+  width: 100%;
+  background-color: darkslategray;
+  padding: 20px;
+}
+.generalContainer .comics .button {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 20px;
+}
+.generalContainer .comics .button a {
+  text-align: center;
+  color: white;
+  background-color: blue;
+  padding: 5px 50px 5px 50px;
+  cursor: pointer;
+}
+.generalContainer .comics .comicList {
+  margin: 0 auto;
+  width: 80%;
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  grid-template-columns: repeat(auto-fill, minmax(170px, 1fr));
   grid-gap: 1em;
+  list-style: none;
+}
+.generalContainer .comics .comicList .lista {
+  width: 100%;
+}
+.generalContainer .comics .comicList .lista img {
+  width: 100%;
+}
+.generalContainer .comics .comicList .lista h3 {
+  color: white;
+  font-size: 12px;
+}
+.generalContainer .comics .comicList .lista a {
+  text-decoration: none;
+}
+
+.lista ul {
+  display: flex;
+  align-items: center;
+  list-style: none;
+}
+.lista ul a {
+  text-decoration: none;
+  padding: 20px;
+  color: black;
+  font-family: sans-serif;
+  font-weight: 800;
+}
+
+.merch {
+  background-color: blue;
+  display: flex;
+  justify-content: space-around;
+}
+.merch li {
+  display: flex;
+  align-items: center;
+  color: white;
+  font-size: 10px;
+  padding: 20px;
+}
+.merch li img {
+  padding-right: 20px;
+  width: 30px;
 }

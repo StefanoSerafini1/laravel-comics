@@ -21,7 +21,35 @@
                     @endforeach
                 </ul>
             </div>
+            <div class="button">
+                <a>LOAD MORE</a>
+            </div>
         </section>
+        <div class="lista merch">
+            <ul>
+                <li>
+                    <img src="{{ asset('images/digital-comics.png')}}" alt="">
+                    <h2>DIGITAL COMICS</h2>
+                </li>
+                <li>
+                    <img src="{{ asset('images/merchandise.png')}}" alt="">
+                    <h2>DC MERCHANDISE</h2>
+                </li>
+                <li>
+                    <img src="{{ asset('images/subscriptions.png')}}" alt="">
+                    <h2>SUBSCRIPTION</h2>
+                </li>
+                <li>
+                    <img src="{{ asset('images/locator.png')}}" alt="">
+                    <h2>COMIC SHOP LOCATOR</h2>
+                </li>
+                <li>
+                    <img src="{{ asset('images/power-visa.svg')}}" alt="">
+                    <h2>DC POWER VISA</h2>
+                </li>
+
+            </ul>
+        </div>
    </main>
 
 @endsection

@@ -1,15 +1,49 @@
 .generalContainer{
+    list-style: none;
+    text-decoration: none;
+        .containerHeader{
+            height: 390px;
+            background-image: url('../images/bg-hero-home.jpg');
+            background-size: cover;
+            text-decoration: none;
+        }
+        .comics{
+            width:  100%;
+            background-color: darkslategray;
+            padding:20px;
+            .button{
+                display: flex;
+                justify-content: space-around;
+                margin-top: 20px;
+                a{
+                    text-align: center;
+                    color: white;
+                    background-color: blue;
+                    padding: 5px 50px 5px 50px; 
+                    cursor: pointer;
+                }
+            }
+            .comicList{
+                margin: 0 auto;
+                width: 80%;
+                display: grid;
+                grid-template-columns: repeat(auto-fill, minmax(170px, 1fr));
+                grid-gap: 1em;
+                list-style: none;
+                .lista{
+                    width: 100%;
+                    img{
+                        width: 100%;
 
-    
-    .containerHeader{
-        height: 390px;
-        background-image: url('../images/bg-hero-home.jpg');
-        background-size: cover;
-        
-    }
-    .comicList{
-        display: grid;
-        grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
-        grid-gap: 1em;
-    }
+                    }
+                    h3{
+                        color:white;
+                        font-size: 12px;
+                    }
+                    a{
+                        text-decoration: none;
+                    }
+                }
+            }
+        }
 }

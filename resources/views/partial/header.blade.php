@@ -4,8 +4,8 @@
             <img src="{{asset('images/logo.png') }}" alt="DC logo">
         </a>
 
-        <nav class="navbar-nav">
-            <ul class="d-flex list-none align-centr">
+        <nav class="lista">
+            <ul>
                 <li><a href="#">characters</a></li>
                 <li><a href="#">comics</a></li>
                 <li><a href="#">movies</a></li>
